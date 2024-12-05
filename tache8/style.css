@@ -1,0 +1,176 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar-brand a{
+    color: orange;
+}
+
+.navbar-collapse ul li a{
+    margin-right: 20px;
+    font-size: 20px;
+}
+/* partie-header */
+.entete{
+    background-image: url(image/header-bg.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    height: 600px;
+}
+
+.section-header .container .row h2{
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+.section-header .container .row h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    margin-top: 100px; 
+}
+.btn a{
+    background-color: orange;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   border-radius: 30px;
+
+}
+/*-------------------- partie-service ---------------------*/
+.section-service .container .icon .bx{
+    color: white;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section-service .container .icon{
+        background-color: orange;
+        border-radius: 100px;
+        width: 130px;
+        height: 130px;
+        margin: auto;
+}
+/*------------- partie-portfolio ----------------------*/
+.section-portfolio .col .text{
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    
+}
+.section-portfolio .col .text span{
+    font-size: 25px;
+}
+.section-portfolio .deux{
+    width: 100px;
+    margin: 30px;
+}
+.section-portfolio .deux img{
+    width: 100%;
+
+    
+}
+
+
+/*------------ partie-about --------------------------*/
+.section-about li .timeline-image img{
+    position: absolute;
+    margin-left: 40%;
+   text-align: center;
+   border: 7px solid whitesmoke;
+   border-radius: 100%;
+   width: 150px;
+   height: 150px;
+}
+.bg-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 7px solid whitesmoke;
+}
+.section-about li .timeline-panel1{
+    width: 350px;
+    margin: auto;
+    /* left: 100px; */
+    text-align: right;
+    margin-left:60px;
+}
+
+.timeline li{
+    position: relative;
+}
+
+.section-about li .timeline-panel2{
+    width: 350px;
+    margin: auto;
+    text-align: right;
+    margin-right:20%;
+}
+@media screen and (max-width:765px){
+    .section-about li .timeline-image img{
+        position: absolute;
+        margin-left: 0px;
+       text-align: center;
+       border: 7px solid wheat;
+       border-radius: 100%;
+       width: 100px;
+       height: 100px;
+    }
+    .section-about li .timeline-panel1{
+        width: 330px;
+        margin: auto;
+        text-align: left;
+        margin-left:120px;
+    }
+    .section-about li .timeline-panel2{
+        width: 350px;
+        margin: auto;
+        text-align: left;
+        margin-left:120px;
+    }
+    .bg-primary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 7px solid wheat;
+    }
+    
+}
+
+
+/* ---------------TEAM---------------- */
+.team .container .row .card .card-body i{
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

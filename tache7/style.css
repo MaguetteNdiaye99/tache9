@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+body{
+    background-image: url(image/fraise-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titre h1, h2{
+    color: white;
+    text-align: center;
+   
+}
+.titre h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 10px;
+}
+.titre h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.list{
+    margin-top: 120px;
+    background-color: rgba(73,9,9,255);
+}
+
+/* -------------------section deux  ------------------------*/
+.section-deux .coffe{
+    background-color: #f6e1c5;
+}
+.section-deux{
+    margin-top: 100px;
+}
+
+.section-deux .work{
+    margin-right: -240px;
+    z-index: 2;
+    width: 500px;
+}
+.section-deux .work .lorem{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.section-deux .buton{
+    text-align: center;
+    margin-top: -20px;
+}
+.section-deux .buton .visit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-deux .image{
+    z-index: 1;
+    margin-right: 39px;
+}
+ /* @media screen and (max-width:576px){
+    .section-deux .container .row{
+        width: 250px;
+    }
+    .section-deux .work{
+        margin-right: -240px;
+        z-index: 2;
+        width: 200px;
+        font-size: 5px;
+    }
+    .section-deux .work .lorem{
+        width: 200px;
+        padding-bottom: 20px;
+        font-size: 5px;
+    }
+    
+}  */
+/*------------------ SECTION6TROIX ----------------*/
+.section-troix{
+    background-color: #8429249c;
+    margin-top: 100px;
+    height: 500px;
+    padding: 30px 0;
+}
+.section-troix .container .row .changer{
+    background-color: rgba(246,225,197,255);
+    padding: 30px;
+   
+}
+.section-troix .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    
+}
+
+
+.section-troix .container .row .you{
+    font-size: 25px;
+    margin-bottom: 40px;
+    
+}
+.section-troix .container .row .ipsum{
+    margin-bottom: 60px;
+    text-align: center;
+}
+/*---------------- footer ------------*/
+footer{
+    background-color: rgba(49,25,25,255);
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+/*------------ section about ---------*/
+.about-section .container  .row .image .image-about{
+    margin-top: 80px;
+    width: 1050px;
+    height: 400px;
+    z-index: 2;
+}
+
+.about-section .container  .row .text{
+    background-color: #f6e1c5;
+    width: 650px;
+    margin: auto;
+    height: 300px;
+    margin-top: -100px;
+    z-index: 1;
+}
+.about-section .container  .row .text .text-lorem{
+    width: 500px;
+    margin: auto;
+}
+
+/*------------ products-section ----------------*/
+.products-section .container{
+    margin-top: 100px
+}
+.products-section .container .row{
+    width: 800px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+.products-section .container .row .image1{
+    width: 800px;
+    
+}
+.products-section .container .row .tea{
+    background-color: #f6e1c5;
+    width: 350px;
+    height: 150px;
+    top: -60px;
+    right: -150px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.products-section .container .row .test{
+    background-color: #f6e1c5;
+    width: 400px;
+    position: absolute;
+    bottom: -70px;
+    left: -130px;
+    border-radius: 10px;
+}
+.products-section .container .row .image2{
+    width: 800px;
+    
+}
+.products-section .container .row .image3{
+    width: 800px;
+    
+}
+.products-section .deux{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+
+.products-section .deux .container .row .tea-deux{
+    background-color: #f6e1c5;
+    width: 350px;
+    height: 150px;
+    top: -60px;
+    left: -130px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.products-section .deux .container .row .test-deux{
+    background-color: #f6e1c5;
+    width: 400px;
+    position: absolute;
+    bottom: -70px;
+    right: -200px;
+    border-radius: 10px;
+}
+
+/*------------------ section stor ------------*/
+.section-store .container .row .horloge{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid;
+    padding-top: 10px;
+}
+.section-store{
+    background-color: #8429249c;
+    margin-top: 100px;
+    height: 500px;
+}
+.section-store .container{
+    background-color: rgba(246,225,197,255);
+    width: 80%;
+}
